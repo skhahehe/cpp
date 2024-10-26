@@ -4,7 +4,8 @@ int main()
 {
     string password;
     string input;
-    password="zitler";
+    cout<<"Set password:\n";
+    cin>>password;
     cout<<"Input password:\n";
     cin>>input;
     if (input==password)
